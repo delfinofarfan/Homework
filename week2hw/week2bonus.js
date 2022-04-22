@@ -1,7 +1,7 @@
 // let pizzaPlace = "Minskys";
 let numberOfToppings = 32;
 
-// console.log(`"Here at ${pizzaPlace} we now offer ${numberOfToppings} toppings on our latest creation!"`);
+// console.log(`Here at ${pizzaPlace} we now offer ${numberOfToppings} toppings on our latest creation!`);
 
 // console.log(typeof pizzaPlace);
 // console.log(typeof numberOfToppings);
