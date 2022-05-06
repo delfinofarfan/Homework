@@ -1,0 +1,55 @@
+html {
+    background-color: antiquewhite;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: left;
+  }
+  
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+  
+  #pro {
+    width: auto;
+  }
+
+  @media(max-width: 380px) {
+    #bio {
+        margin-right: 35px;
+        color: hotpink;
+    }
+    img {
+        margin-top: 7.5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    div {
+        border: 4px dashed black;
+    }
+    .link {
+        font-size: larger;
+    }
+  };
